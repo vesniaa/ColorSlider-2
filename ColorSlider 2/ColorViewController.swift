@@ -126,10 +126,8 @@ class ColorViewController: UIViewController {
                 redTextField.text = getColorText(from: colorComponents.red)
             case greenTextField:
                 greenTextField.text = getColorText(from: colorComponents.green)
-            case blueTextField:
-                blueTextField.text = getColorText(from: colorComponents.blue)
             default:
-                break
+                blueTextField.text = getColorText(from: colorComponents.blue)
             }
         }
     }

@@ -21,9 +21,21 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dr5-HB-2HB">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="149.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тут красиво!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alV-UQ-bdf">
+                                                <rect key="frame" x="16" y="64" width="248" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="alV-UQ-bdf" secondAttribute="bottom" constant="64.5" id="Gsx-ce-6xD"/>
+                                            <constraint firstItem="alV-UQ-bdf" firstAttribute="top" secondItem="Dr5-HB-2HB" secondAttribute="top" constant="64" id="PB5-rs-GD5"/>
                                             <constraint firstAttribute="width" secondItem="Dr5-HB-2HB" secondAttribute="height" multiplier="187:100" id="fdw-eC-IfY"/>
+                                            <constraint firstItem="alV-UQ-bdf" firstAttribute="leading" secondItem="Dr5-HB-2HB" secondAttribute="leading" constant="16" id="fuO-gl-Cuj"/>
+                                            <constraint firstAttribute="trailing" secondItem="alV-UQ-bdf" secondAttribute="trailing" constant="16" id="hmI-D3-TV4"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="r9b-zV-zOv">
